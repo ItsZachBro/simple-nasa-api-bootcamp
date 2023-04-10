@@ -1,0 +1,54 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+body{
+  background-color: azure;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+h1, h2, h3{
+  text-align: center;
+}
+
+h1{
+  padding-top: 3vh;
+}
+
+.inputButton{
+  text-align: center;
+}
+
+body > h3{
+  padding-top: 5vh ;
+  padding-left: 8vh;
+  padding-right: 8vh;
+  padding-bottom: 5vh;
+}
+
+.hidden{
+  display:none;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
